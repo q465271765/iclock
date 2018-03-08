@@ -1,0 +1,12 @@
+python.version = 3.6.0
+django.version = 1.8.17
+
+DEBUG=TRUE
+ALLOWED_HOSTS = ['*']
+
+index.html:设置服务器命令
+
+v1.0.01更新
+1.连接sqlserver数据库
+2.简单实现上传用户信息和指纹功能
+3.利用cache简单实现，服务端下发命令

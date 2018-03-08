@@ -1,0 +1,14 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+    <title>测试</title>
+</head>
+<body>
+	<form action="/iclock/cdata" method="post">
+        {% csrf_token %}
+		<input type="text" name="SN" value="11">
+		<input type="text" name="language" value="22">
+        <input type="submit" value="我是按钮1">
+	</form>
+</body>
+</html>
